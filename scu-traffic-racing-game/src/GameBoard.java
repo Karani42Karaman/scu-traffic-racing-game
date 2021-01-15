@@ -1,5 +1,5 @@
 /*
- * Oyunumun Gerçekleþtiði Ana Ekran 
+ * Oyunumun Ger?ekle?ti?i Ana Ekran
  */
 import java.awt.Graphics;
 import java.awt.Graphics2D;
@@ -11,7 +11,7 @@ import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 
 public class GameBoard extends JPanel implements ICar {
-	// Arabanýn parametreleri
+	// Araban?n parametreleri
 	int crx, cry;
 	int car_x, car_y;
 	int speedX, speedY;
