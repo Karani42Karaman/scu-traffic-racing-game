@@ -36,8 +36,8 @@ public class Game extends JFrame {
 			}
 			c = 1;
 			count++;
-			if (ng.nOpponent < 4 && count % 200 == 0) {
-				ng.imageOpp[ng.nOpponent] = "src/images/car_left_" + ((int) ((Math.random() * 100) % 4) + 1) + ".png";
+			if (ng.nOpponent < 8 && count % 200 == 0) {
+				ng.imageOpp[ng.nOpponent] = "src/images/car_left_" + ((int) ((Math.random() * 100) % 8) + 1) + ".png";
 				ng.ly[ng.nOpponent] = -70;
 				int p = (int) (Math.random() * 100) % 4;
 				if (p == 0) {
